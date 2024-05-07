@@ -5128,7 +5128,6 @@ packages:
 
   vectordb@0.4.12:
     resolution: {integrity: sha512-H2mFwZ87d3BcuX4yGx5RoW06amRZQ3W5u/FRTNc86rwVINuEEa+Ivsqng1i8hURHXoTDbF/0Y9qwCshySkeznQ==}
-    cpu: [x64, arm64]
     os: [darwin, linux, win32]
     peerDependencies:
       '@apache-arrow/ts': ^14.0.2

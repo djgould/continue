@@ -20,8 +20,17 @@ importers:
       '@reduxjs/toolkit':
         specifier: ^1.9.3
         version: 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
+      '@tiptap/core':
+        specifier: ^2.3.1
+        version: 2.3.1(@tiptap/pm@2.3.1)
+      '@tiptap/extension-document':
+        specifier: ^2.3.1
+        version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))
       '@tiptap/extension-dropcursor':
         specifier: ^2.1.16
+        version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))(@tiptap/pm@2.3.1)
+      '@tiptap/extension-history':
+        specifier: ^2.3.1
         version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))(@tiptap/pm@2.3.1)
       '@tiptap/extension-image':
         specifier: ^2.1.16
@@ -29,9 +38,15 @@ importers:
       '@tiptap/extension-mention':
         specifier: ^2.1.13
         version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))(@tiptap/pm@2.3.1)(@tiptap/suggestion@2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))(@tiptap/pm@2.3.1))
+      '@tiptap/extension-paragraph':
+        specifier: ^2.3.1
+        version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))
       '@tiptap/extension-placeholder':
         specifier: ^2.1.13
         version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))(@tiptap/pm@2.3.1)
+      '@tiptap/extension-text':
+        specifier: ^2.3.1
+        version: 2.3.1(@tiptap/core@2.3.1(@tiptap/pm@2.3.1))
       '@tiptap/pm':
         specifier: ^2.1.13
         version: 2.3.1
@@ -3968,7 +3983,6 @@ packages:
 
   vectordb@0.4.12:
     resolution: {integrity: sha512-H2mFwZ87d3BcuX4yGx5RoW06amRZQ3W5u/FRTNc86rwVINuEEa+Ivsqng1i8hURHXoTDbF/0Y9qwCshySkeznQ==}
-    cpu: [x64, arm64]
     os: [darwin, linux, win32]
     peerDependencies:
       '@apache-arrow/ts': ^14.0.2
